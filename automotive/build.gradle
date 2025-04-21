@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.example.places.automotive'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.places.automotive"
+        minSdk 29
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    useLibrary("android.car")
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+
+    buildFeatures{
+        viewBinding = true
+    }
+
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.16.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation project(':common:car-app-service')
+    implementation "androidx.car.app:app-automotive:$car_app_library_version"
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+
+    //implementation ("androidx.car.app:app-automotive:$car_app_library_version")
+    implementation ("androidx.car.app:app:$car_app_library_version")
+}
