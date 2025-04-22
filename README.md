@@ -1,64 +1,37 @@
-# 🚗 Automotive POI App – Android (Jetpack Compose)
+🚘 Android Automotive OS – Point of Interest (POI) App
+Overview
+This project is a demo Android Automotive OS (AAOS) application designed to showcase Point of Interest (POI) discovery tailored for in-vehicle infotainment (IVI) systems.
 
-A modern, Android-based **Point of Interest (POI)** app designed for **automotive platforms**. This app demonstrates seamless access to nearby places (static data added for demo purpose only) using intuitive UI and real-time map integration — built with **Jetpack Compose**, and Android best practices.
+Built with the aim of transitioning into the automotive domain, this app represents my first hands-on experience in developing apps for the embedded Android Automotive environment, focusing on driver-friendly UX, scalable architecture, and future integration with vehicle signals.
 
-> 🧭 Purpose: This project showcases my capability to build automotive-ready user experiences for infotainment and in-vehicle applications.
+🔧 Tech Stack
+Kotlin
 
----
+Jetpack Compose
 
-## 🔧 Tech Stack
+Android Automotive OS (AAOS)
 
-- **Language**: Kotlin
-- **UI Toolkit**: Automotive TEMPLATE
-- **Maps**: Google Maps 
+MVVM Architecture
 
----
+Navigation Component
 
-## ✨ Key Features
+Material Design for Automotive
 
-- 📍 Real-time location access
-- 🗺️ Map-based POI display (demo location used.)
-- 💡 Optimized layout for automotive screen resolutions
-- 🧪 Modular & testable code structure
+🎯 Features
+Browse Points of Interest like fuel stations, restaurants, and more
 
----
+Designed with in-car UI considerations (larger touch targets, minimal distraction)
 
-## 🎯 Why This Project?
+Modular structure with future scope for vehicle signal integration
 
-I’m a **Senior Android Developer** with 7+ years of experience in building intuitive, high-performance Android apps. This project marks my **transition to the automotive industry**, with a specific focus on:
+Built as part of my learning roadmap to enter the Android Automotive space
 
-- Building **infotainment-ready** Android apps
-- Adhering to automotive-grade UX patterns
-- Designing for **driver distraction-reduced UI**
-- Showcasing technical ability in **vehicle-compatible application development**
+🛠️ In Progress
+Integration with Google Automotive Services (GAS)
 
----
+Support for real-time vehicle signals
 
-## 🚀 Getting Started
+Adaptive layouts for various IVI display sizes
 
-To run the project:
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Diluwar-90/AutomotivePlacesApp.git
-
----
-🤝 Let's Connect
-I'm currently looking for opportunities in the automotive software industry. If you are hiring or know someone in this domain, feel free to connect!
-
-📧 Email: diluwar.mca@gmail.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/diluwar-hossain/
-
----
-
-📂 License
-MIT License. Feel free to fork, improve, and contribute.
-
----
-
-🙏 Acknowledgements
-
-Android Automotive Design Guidelines
-Google Maps
-Jetpack Compose Documentation
+📌 Why This Project?
+I am a Senior Android Developer transitioning into the AAOS domain. This project is a practical step in building apps suited for the automotive industry and demonstrates my capability to adapt quickly while maintaining clean, production-level code quality.
